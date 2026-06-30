@@ -1,259 +1,408 @@
 <!DOCTYPE html>
 <html lang="en">
- 
-<head>
 
+<head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Sathish G | AI Engineer | Generative AI Engineer | Full Stack AI Engineer</title>
-
-<meta name="description" content="Sathish G is an AI Engineer and Generative AI Engineer specializing in LangChain, RAG systems, Kubernetes, and cloud-native architectures.">
-
-<meta name="keywords" content="
-AI Engineer,
-Generative AI Engineer,
-LangChain Developer,
-RAG Developer,
-Full Stack AI Engineer,
-Kubernetes Engineer,
-Python AI Engineer,
-Cloud AI Engineer,
-Conversational AI Developer">
-
+<title>Sathish G | Software Engineer | Full Stack Developer | System Design | Azure & AWS</title>
+<meta name="description" content="Sathish G — Software Engineer with 3+ years building scalable full-stack web applications and cloud infrastructure on Azure, AWS & Kubernetes. Bangalore, India.">
+<meta name="keywords" content="Sathish G, Software Engineer, Full Stack Developer, System Design, Angular, React, Node.js, Python, FastAPI, Microsoft Azure, AWS, Kubernetes, Docker, CI/CD, Bangalore">
 <meta name="author" content="Sathish G">
 
 <link rel="stylesheet" href="style.css">
-
 <link rel="canonical" href="https://sathishg1342.github.io/">
 
 <!-- OpenGraph -->
-<meta property="og:title" content="Sathish G | AI Engineer Portfolio">
-<meta property="og:description" content="AI Engineer building GenAI and cloud-native systems">
+<meta property="og:title" content="Sathish G | Software Engineer | Full Stack Developer">
+<meta property="og:description" content="Building scalable web applications & cloud infrastructure on Azure, AWS & Kubernetes.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://sathishg1342.github.io/">
 
-<!-- Structured data for Google -->
+<!-- Structured data -->
 <script type="application/ld+json">
 {
- "@context":"https://schema.org",
- "@type":"Person",
- "name":"Sathish G",
- "jobTitle":"AI Engineer",
- "url":"https://sathishg1342.github.io/",
- "sameAs":[
-   "https://github.com/Sathishg1342",
-   "https://linkedin.com/in/isathishg"
- ],
- "knowsAbout":[
-   "Generative AI",
-   "LangChain",
-   "RAG Systems",
-   "Kubernetes",
-   "Cloud Architecture"
- ]
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Sathish G",
+  "jobTitle": "Software Engineer",
+  "url": "https://sathishg1342.github.io/",
+  "email": "sathishgdpi@gmail.com",
+  "address": { "@type": "PostalAddress", "addressLocality": "Bangalore", "addressCountry": "IN" },
+  "sameAs": [
+    "https://github.com/Sathishg1342",
+    "https://linkedin.com/in/isathishg"
+  ],
+  "knowsAbout": ["Full Stack Development", "System Design", "Microsoft Azure", "AWS", "Kubernetes", "Angular", "React", "Node.js", "Python", "FastAPI"]
 }
 </script>
-
 </head>
 
 <body>
 
-<header>
+<!-- Progress bar -->
+<div id="progress"></div>
 
-<h1>Sathish G</h1>
-
-<p>
-AI Engineer • Generative AI Engineer • Full Stack AI Engineer • Kubernetes Engineer
-</p>
-
-<nav>
-
-<a href="#about">About</a>
-<a href="#skills">Skills</a>
-<a href="#projects">Projects</a>
-<a href="#experience">Experience</a>
-<a href="#contact">Contact</a>
-
+<!-- Navigation -->
+<nav id="nav">
+  <a href="#hero" class="nav-logo">S<span>G</span></a>
+  <button class="nav-toggle" id="nav-toggle" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+  <div class="nav-links" id="nav-links">
+    <a href="#about"    class="nav-text-link">About</a>
+    <a href="#stack"    class="nav-text-link">Stack</a>
+    <a href="#projects" class="nav-text-link">Projects</a>
+    <a href="#certs"    class="nav-text-link">Certs</a>
+    <a href="#contact"  class="nav-cta">Contact</a>
+  </div>
 </nav>
 
-</header>
+<!-- Hero -->
+<section id="hero">
+  <canvas id="hero-canvas"></canvas>
+  <div class="hero-content">
+    <div class="hero-badge">Available for opportunities</div>
+    <h1 class="hero-name">SATHISH <span class="accent">G</span></h1>
+    <div class="hero-typing">
+      <span class="prefix">&gt;</span>
+      <span id="typed-text"></span><span class="hero-cursor"></span>
+    </div>
+    <p class="hero-tagline">Building scalable web applications &amp; cloud infrastructure on Azure, AWS &amp; Kubernetes.</p>
+    <div class="hero-stats">
+      <div class="hero-stat">
+        <div class="num">3<span>+</span></div>
+        <div class="lbl">Years Exp</div>
+      </div>
+      <div class="hero-stat">
+        <div class="num">4</div>
+        <div class="lbl">Projects</div>
+      </div>
+      <div class="hero-stat">
+        <div class="num">2</div>
+        <div class="lbl">Cloud Platforms</div>
+      </div>
+    </div>
+    <div class="hero-btns">
+      <a href="#projects" class="btn btn-primary">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+        View Projects
+      </a>
+      <a href="Sathish_Resume.pdf" class="btn btn-outline" download>
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        Resume
+      </a>
+      <a href="https://www.linkedin.com/in/isathishg" target="_blank" rel="noopener" class="btn btn-outline">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+        LinkedIn
+      </a>
+    </div>
+  </div>
+</section>
 
+<!-- About -->
 <section id="about">
-
-<h2>About Me</h2>
-
-<p>
-
-I am an <strong>AI Engineer</strong> and <strong>Generative AI Engineer</strong>
-with experience building scalable AI products and cloud-native systems.
-
-My expertise includes:
-
-</p>
-
-<ul>
-
-<li>LangChain based AI applications</li>
-<li>RAG (Retrieval Augmented Generation) architectures</li>
-<li>Kubernetes distributed systems</li>
-<li>Cloud infrastructure across AWS and Azure</li>
-
-</ul>
-
-<p>
-
-Currently working as a <strong>Full Stack AI Engineer</strong> building
-real-time conversational AI platforms and cloud SaaS systems.
-
-</p>
-
-<a class="button" href="Sathish_Resume.pdf">Download Resume</a>
-
+  <div class="container">
+    <div class="about-grid fade-in">
+      <div>
+        <div class="section-label">About</div>
+        <h2 class="section-title">Who I Am</h2>
+        <div class="about-bio">
+          <p>I'm a <strong>Software Engineer</strong> with 3+ years of experience building scalable full-stack applications and cloud infrastructure at <strong>Narayana Health · Medha Analytics</strong> in Bangalore.</p>
+          <p>I work across the full stack — from Angular and React frontends to FastAPI and Node.js backends — and manage production deployments on <strong>Microsoft Azure and AWS</strong> with Docker and Kubernetes.</p>
+          <p>I've shipped systems that automate hospital workflows, power enterprise browser tools with AI search, and reduced deployment time by <strong>73%</strong> through CI/CD automation.</p>
+        </div>
+      </div>
+      <div class="about-cards">
+        <div class="about-card">
+          <div class="about-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="var(--teal)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <div class="about-card-text">
+            <div class="big">3+</div>
+            <div class="small">Years of production experience</div>
+          </div>
+        </div>
+        <div class="about-card">
+          <div class="about-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="var(--teal)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+          </div>
+          <div class="about-card-text">
+            <div class="big">4</div>
+            <div class="small">Production projects shipped</div>
+          </div>
+        </div>
+        <div class="about-card">
+          <div class="about-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="var(--teal)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+          </div>
+          <div class="about-card-text">
+            <div class="big">73%</div>
+            <div class="small">Deployment time cut via CI/CD</div>
+          </div>
+        </div>
+        <div class="about-card">
+          <div class="about-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="var(--teal)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          </div>
+          <div class="about-card-text">
+            <div class="big">AKS+EKS</div>
+            <div class="small">Kubernetes on Azure &amp; AWS</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
-<section id="skills">
+<!-- Tech Stack -->
+<section id="stack">
+  <div class="container fade-in">
+    <div class="section-label">Tech Stack</div>
+    <h2 class="section-title">Tools &amp; Technologies</h2>
+    <p class="section-sub">What I build with — across frontend, backend, cloud, and everything in between.</p>
 
-<h2>Technical Skills</h2>
-
-<div class="grid">
-
-<div>
-
-<h3>AI Engineering</h3>
-
-<p>
-AI Engineer,
-Generative AI Engineer,
-LangChain Developer,
-RAG Developer
-</p>
-
-</div>
-
-<div>
-
-<h3>Languages</h3>
-
-<p>Python, JavaScript, TypeScript, Java</p>
-
-</div>
-
-<div>
-
-<h3>Backend</h3>
-
-<p>FastAPI, Flask, Node.js, REST APIs</p>
-
-</div>
-
-<div>
-
-<h3>Frontend</h3>
-
-<p>React, Angular</p>
-
-</div>
-
-<div>
-
-<h3>Cloud</h3>
-
-<p>AWS, Azure, Kubernetes, Docker</p>
-
-</div>
-
-</div>
-
+    <div class="stack-group">
+      <div class="stack-group-label">Frontend</div>
+      <div class="chips">
+        <span class="chip">Angular</span>
+        <span class="chip">React.js</span>
+        <span class="chip">TypeScript</span>
+        <span class="chip">JavaScript</span>
+        <span class="chip">Chrome Extensions (MV3)</span>
+        <span class="chip">HTML5</span>
+        <span class="chip">CSS3</span>
+      </div>
+    </div>
+    <div class="stack-group">
+      <div class="stack-group-label">Backend</div>
+      <div class="chips">
+        <span class="chip">Node.js</span>
+        <span class="chip">Python</span>
+        <span class="chip">FastAPI</span>
+        <span class="chip">Django</span>
+        <span class="chip">REST APIs</span>
+        <span class="chip">Microservices</span>
+      </div>
+    </div>
+    <div class="stack-group">
+      <div class="stack-group-label">Cloud &amp; DevOps</div>
+      <div class="chips">
+        <span class="chip chip-amber">Microsoft Azure</span>
+        <span class="chip chip-amber">AWS</span>
+        <span class="chip chip-amber">Kubernetes (AKS, EKS)</span>
+        <span class="chip chip-amber">Docker</span>
+        <span class="chip chip-amber">CI/CD</span>
+        <span class="chip chip-amber">GitHub Actions</span>
+        <span class="chip chip-amber">Azure DevOps</span>
+      </div>
+    </div>
+    <div class="stack-group">
+      <div class="stack-group-label">Databases &amp; Concepts</div>
+      <div class="chips">
+        <span class="chip">PostgreSQL</span>
+        <span class="chip">MongoDB</span>
+        <span class="chip">Redis</span>
+        <span class="chip">PGVector</span>
+        <span class="chip">System Design</span>
+        <span class="chip">RBAC</span>
+        <span class="chip">Multi-tenant Architecture</span>
+        <span class="chip">Agile</span>
+      </div>
+    </div>
+  </div>
 </section>
 
-<section id="projects">
+<!-- Projects -->
+<section id="projects" class="bg-alt">
+  <div class="container fade-in">
+    <div class="section-label">Projects</div>
+    <h2 class="section-title">What I've Built</h2>
+    <p class="section-sub">Production systems across healthcare, cloud infrastructure, and enterprise tooling.</p>
 
-<h2>AI Projects</h2>
+    <div class="projects-grid">
 
-<div class="card">
+      <div class="project-card card-teal">
+        <div class="project-head">
+          <div class="project-name">AiroStrip</div>
+          <div class="project-badge badge-teal">Full Stack</div>
+        </div>
+        <p class="project-desc">AI-powered browser productivity platform. Chrome Extension (Manifest V3) with Angular side panel, enterprise knowledge search via RAG pipeline, and multi-tenant RBAC backend.</p>
+        <div class="project-tags">
+          <span class="project-tag">Angular</span>
+          <span class="project-tag">Chrome MV3</span>
+          <span class="project-tag">FastAPI</span>
+          <span class="project-tag">Azure OpenAI</span>
+          <span class="project-tag">PGVector</span>
+          <span class="project-tag">Multi-tenant</span>
+        </div>
+        <div class="project-metric metric-teal">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="var(--teal)" stroke-width="2.5" stroke-linecap="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
+          <span>RAG pipeline with <strong>hybrid semantic + BM25</strong> retrieval</span>
+        </div>
+      </div>
 
-<h3>AI Call Center Copilot</h3>
+      <div class="project-card card-amber">
+        <div class="project-head">
+          <div class="project-name">Appointment Mitra</div>
+          <div class="project-badge badge-amber">Backend</div>
+        </div>
+        <p class="project-desc">WhatsApp chatbot for automated hospital appointment booking. Multi-turn dialogue state machine with geolocation-based hospital matching and payment gateway integration.</p>
+        <div class="project-tags">
+          <span class="project-tag">Python</span>
+          <span class="project-tag">WhatsApp API</span>
+          <span class="project-tag">FastAPI</span>
+          <span class="project-tag">PostgreSQL</span>
+          <span class="project-tag">State Machine</span>
+        </div>
+        <div class="project-metric metric-amber">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="var(--amber)" stroke-width="2.5" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          <span>Automated booking flow reducing <strong>manual effort</strong> significantly</span>
+        </div>
+      </div>
 
-<p>
+      <div class="project-card card-teal">
+        <div class="project-head">
+          <div class="project-name">YASA</div>
+          <div class="project-badge badge-teal">Full Stack</div>
+        </div>
+        <p class="project-desc">Scalable spreadsheet-based web application with Angular frontend, Node.js/Python microservices, RBAC permission management, and optimized data pipeline for enterprise users.</p>
+        <div class="project-tags">
+          <span class="project-tag">Angular</span>
+          <span class="project-tag">Node.js</span>
+          <span class="project-tag">Python</span>
+          <span class="project-tag">MongoDB</span>
+          <span class="project-tag">PostgreSQL</span>
+          <span class="project-tag">RBAC</span>
+        </div>
+        <div class="project-metric metric-teal">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="var(--teal)" stroke-width="2.5" stroke-linecap="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
+          <span>Data processing speed improved by <strong>35%</strong> for large datasets</span>
+        </div>
+      </div>
 
-Real-time conversational AI assistant for call center agents
-built using LangChain and streaming architectures.
+      <div class="project-card card-amber">
+        <div class="project-head">
+          <div class="project-name">Azure &amp; K8s Infrastructure</div>
+          <div class="project-badge badge-amber">DevOps</div>
+        </div>
+        <p class="project-desc">End-to-end cloud infrastructure on Azure and AWS. Kubernetes AKS &amp; EKS orchestration, Docker containerization, CI/CD pipelines, DNS &amp; SSL configuration for multi-environment deployments.</p>
+        <div class="project-tags">
+          <span class="project-tag">Azure AKS</span>
+          <span class="project-tag">AWS EKS</span>
+          <span class="project-tag">Docker</span>
+          <span class="project-tag">CI/CD</span>
+          <span class="project-tag">GitHub Actions</span>
+        </div>
+        <div class="project-metric metric-amber">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="var(--amber)" stroke-width="2.5" stroke-linecap="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
+          <span>Deployment time reduced by <strong>73%</strong> — 45 min → 12 min</span>
+        </div>
+      </div>
 
-</p>
-
-</div>
-
-<div class="card">
-
-<h3>Healthcare DataChat AI</h3>
-
-<p>
-
-RAG-powered analytics assistant converting natural language
-into SQL queries for healthcare data insights.
-
-</p>
-
-</div>
-
-<div class="card">
-
-<h3>WhatsApp Appointment AI Assistant</h3>
-
-<p>
-
-Conversational AI system automating hospital bookings
-through WhatsApp Business APIs.
-
-</p>
-
-</div>
-
+    </div>
+  </div>
 </section>
 
-<section id="experience">
+<!-- Certifications -->
+<section id="certs">
+  <div class="container fade-in">
+    <div class="section-label">Certifications</div>
+    <h2 class="section-title">Credentials</h2>
+    <p class="section-sub">Verified skills across cloud platforms, system design, and software engineering.</p>
 
-<h2>Experience</h2>
+    <div class="certs-grid">
 
-<h3>Software Engineer — Medha Analytics</h3>
+      <div class="cert-card">
+        <div class="cert-icon cert-icon-teal">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--teal)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg>
+        </div>
+        <div class="cert-name">System Design<br>Low-Level to High-Level Solutions</div>
+        <div class="cert-by">GeeksforGeeks · 2024</div>
+        <a href="https://media.geeksforgeeks.org/courses/certificates/ddc8b59cc39eea59552c001b68ebfd2b.pdf" target="_blank" rel="noopener" class="cert-link">
+          View Certificate
+          <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+        </a>
+      </div>
 
-<p>
+      <div class="cert-card">
+        <div class="cert-icon cert-icon-amber">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--amber)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 10h-1.26A8 8 0 109 20h9a5 5 0 000-10z"/></svg>
+        </div>
+        <div class="cert-name">Generative AI Applications<br>Using Amazon Bedrock</div>
+        <div class="cert-by">Amazon Web Services · 2024</div>
+        <div class="cert-link-placeholder">AWS Certified</div>
+      </div>
 
-Working as an <strong>AI Engineer</strong> building production
-Generative AI applications and Kubernetes cloud platforms.
+      <div class="cert-card">
+        <div class="cert-icon cert-icon-teal">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--teal)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+        </div>
+        <div class="cert-name">Software Engineer<br>Problem Solving, SQL &amp; REST API</div>
+        <div class="cert-by">HackerRank · 2024</div>
+        <a href="https://www.hackerrank.com/certificates/77109dd85399" target="_blank" rel="noopener" class="cert-link">
+          View Certificate
+          <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+        </a>
+      </div>
 
-</p>
-
-<ul>
-
-<li>Developed real-time AI copilots</li>
-<li>Designed RAG-based conversational AI systems</li>
-<li>Built cloud-native Kubernetes SaaS platforms</li>
-
-</ul>
-
+    </div>
+  </div>
 </section>
 
-<section id="contact">
-
-<h2>Contact</h2>
-
-<a href="mailto:sathishgdpi@gmail.com">sathishgdpi@gmail.com</a>
-
-<p>
-
-<a href="https://github.com/Sathishg1342">GitHub</a> |
-<a href="https://linkedin.com/in/isathishg">LinkedIn</a>
-
-</p>
-
+<!-- Contact -->
+<section id="contact" class="bg-alt">
+  <div class="container fade-in contact-center">
+    <div class="section-label">Contact</div>
+    <h2 class="section-title">Get In Touch</h2>
+    <p class="section-sub contact-sub">Open to full-time roles in Full Stack, Backend, or Cloud Engineering — on-site, hybrid, or remote in Bangalore.</p>
+    <div class="contact-grid">
+      <a href="mailto:sathishgdpi@gmail.com" class="contact-card">
+        <div class="contact-card-icon">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--teal)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        </div>
+        <div class="contact-card-text">
+          <div class="contact-label">Email</div>
+          <div class="contact-val">sathishgdpi@gmail.com</div>
+        </div>
+      </a>
+      <a href="tel:+919488965359" class="contact-card">
+        <div class="contact-card-icon">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--teal)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.09 9.81a19.79 19.79 0 01-3.07-8.67A2 2 0 012 .84h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+        </div>
+        <div class="contact-card-text">
+          <div class="contact-label">Phone</div>
+          <div class="contact-val">+91 94889 65359</div>
+        </div>
+      </a>
+      <a href="https://www.linkedin.com/in/isathishg" target="_blank" rel="noopener" class="contact-card">
+        <div class="contact-card-icon">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="var(--teal)"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+        </div>
+        <div class="contact-card-text">
+          <div class="contact-label">LinkedIn</div>
+          <div class="contact-val">linkedin.com/in/isathishg</div>
+        </div>
+      </a>
+      <a href="https://github.com/Sathishg1342" target="_blank" rel="noopener" class="contact-card">
+        <div class="contact-card-icon">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="var(--teal)"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+        </div>
+        <div class="contact-card-text">
+          <div class="contact-label">GitHub</div>
+          <div class="contact-val">github.com/Sathishg1342</div>
+        </div>
+      </a>
+    </div>
+  </div>
 </section>
 
 <footer>
-
-<p>© 2026 Sathish G</p>
-
+  <span>© 2026 Sathish G · Bangalore, India</span>
+  <div class="footer-right">
+    <div class="footer-dot"></div>
+    <span>Full Stack · System Design · Cloud</span>
+  </div>
 </footer>
 
 <script src="script.js"></script>
