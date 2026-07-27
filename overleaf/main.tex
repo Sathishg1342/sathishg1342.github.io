@@ -1,115 +1,132 @@
-\documentclass{resume}
+\documentclass[10pt,letterpaper]{article}
 
-\usepackage[left=0.4 in,top=0.3in,right=0.4 in,bottom=0.3in]{geometry}
-\linespread{0.95}
-\def\sectionskip{\smallskip}
-\def\sectionlineskip{\smallskip}
-\def\nameskip{\smallskip}
-\def\addressskip{\smallskip}
-\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
-\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+% ---------- ATS-SAFE SETUP ----------
+% Single column, no tables/icons/graphics, standard fonts, selectable text.
+\usepackage[margin=0.4in,top=0.28in,bottom=0.28in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\definecolor{linkblue}{RGB}{0,0,238}
+\usepackage[colorlinks=true, linkcolor=linkblue, urlcolor=linkblue, filecolor=linkblue]{hyperref}
+\usepackage[skip=1pt]{parskip}
 
-\name{Sathish G}
-\address{\href{tel:+919488965359}{+91-9488965359} \\
-\href{mailto:sathishgdpi@gmail.com}{sathishgdpi@gmail.com} \\
-\href{https://www.linkedin.com/in/isathishg}{linkedin.com/in/isathishg} \\
-\href{https://github.com/Sathishg1342}{github.com/Sathishg1342} \\
-Bangalore, India}
-\address{Software Engineer $\vert$ Backend \& Data-Driven Systems $\vert$ Python $\vert$ SQL $\vert$ Azure \& AWS}
+\pagestyle{empty}
+\raggedright
+\setlength{\parindent}{0pt}
+
+% Section formatting: plain, bold, small-caps-free (ATS-safe), rule below
+\titleformat{\section}{\bfseries\normalsize}{}{0em}{}[\vspace{-8pt}\hrulefill]
+\titlespacing{\section}{0pt}{3pt}{1pt}
+
+% Compact bullet list
+\setlist[itemize]{leftmargin=1.1em, itemsep=0pt, topsep=0pt, parsep=0pt}
+
+% Default-browser-style link: blue, no underline
+\newcommand{\weblink}[2]{\href{#1}{#2}}
+
+\newcommand{\role}[2]{\textbf{#1} \hfill #2\\[-3pt]}
+\newcommand{\projtitle}[2]{\textbf{#1} \\[-1pt] \textit{#2}\\[-3pt]}
 
 \begin{document}
 
-%----------------------------------------------------------------------------------------
-% SUMMARY
-%----------------------------------------------------------------------------------------
+% ---------- HEADER ----------
+\begin{center}
+{\LARGE \textbf{SATHISH G}}\\[2pt]
+Software Engineer \textbar{} GenAI \textbar{} RAG \& Agentic AI Systems \textbar{} Azure, AWS, Kubernetes \textbar{} Python, FastAPI, PostgreSQL, Angular\\[2pt]
+Bangalore, India \textbar{} \weblink{tel:+919488965359}{+91-9488965359} \textbar{} \weblink{mailto:sathishgdpi@gmail.com}{sathishgdpi@gmail.com} \textbar{} \weblink{https://linkedin.com/in/isathishg}{linkedin.com/in/isathishg} \textbar{} \weblink{https://github.com/Sathishg1342}{github.com/Sathishg1342}
+\end{center}
 
-\begin{rSection}{SUMMARY}
+% ---------- SUMMARY ----------
+\section*{Summary}
+Software Engineer with 3+ years of experience designing and shipping production \textbf{GenAI} and backend systems, including two independently owned platforms now serving \textbf{10,000+ daily active users}. Hands-on experience building \textbf{RAG pipelines} (\textbf{LangChain}, \textbf{PGVector} hybrid semantic + BM25 retrieval), \textbf{agentic AI} workflows (\textbf{LangGraph}, \textbf{Claude Agent SDK}), and multi-tenant \textbf{RBAC} architectures, backed by strong fundamentals in \textbf{Python}, \textbf{SQL}, \textbf{RESTful API} design, and \textbf{microservices} across the full development lifecycle. Experienced in \textbf{Agile} delivery, \textbf{CI/CD automation} (cut deployment time by \textbf{73\%}), and cloud infrastructure on \textbf{Azure} and \textbf{AWS} with \textbf{Docker/Kubernetes}. Proficient with AI-assisted development tools (\textbf{GitHub Copilot}, \textbf{Claude Code}) to accelerate coding, code review, and test generation.
 
-Software Engineer with 3+ years building scalable backend systems for healthcare, having independently designed and shipped two production systems -- an AI-powered \textbf{RAG} platform and a WhatsApp booking assistant -- now serving \textbf{10,000+ daily active users} across Medha's product suite. Strong \textbf{Python} and \textbf{SQL} background, with hands-on experience in multi-tenant RBAC, data processing optimization, and CI/CD automation that cut deployment time by \textbf{73\%}. Proficient in cloud infrastructure (\textbf{Azure}, \textbf{AWS}), Docker/Kubernetes, and comfortable owning a system end-to-end -- from architecture through production support.
+% ---------- TECHNICAL SKILLS ----------
+\section*{Technical Skills}
+\textbf{AI / GenAI:} LangChain, LangGraph, Claude Agent SDK, RAG Pipelines, Hybrid Semantic + BM25 Retrieval, Azure OpenAI, Agentic AI, Loop Engineering, Prompt Engineering\\
+\textbf{Programming Languages:} Python, Java, JavaScript, TypeScript\\
+\textbf{Frontend:} Angular, HTML5, CSS3, Responsive Design, Chrome Extensions (Manifest V3)\\
+\textbf{Backend:} REST APIs, Microservices, Node.js, FastAPI, Server-Sent Events (SSE)\\
+\textbf{Databases:} PostgreSQL, SQL, MongoDB, Redis, PGVector, ElasticSearch, ADLS, S3\\
+\textbf{Cloud \& DevOps:} Microsoft Azure, AWS, Docker, Kubernetes (AKS, EKS), CI/CD, GitHub Actions\\
+\textbf{AI-Assisted Development:} GitHub Copilot, Claude Code\\
+\textbf{Testing \& Quality:} Unit Testing, Integration Testing, Debugging, Code Review\\
+\textbf{Tools:} Git, Postman, Jira, Azure DevOps\\
+\textbf{Concepts:} Data Structures \& Algorithms, System Design, Multi-Tenant Architecture, RBAC, Performance Optimization, Root Cause Analysis, Agile, SDLC
 
-\end{rSection}
+% ---------- EXPERIENCE ----------
+\section*{Professional Experience}
 
-%----------------------------------------------------------------------------------------
-% TECH STACK
-%----------------------------------------------------------------------------------------
+\role{Software Engineer}{May 2025 -- Present}
+Medha AI, Bangalore, Karnataka
 
-\begin{rSection}{TECH STACK}
+\role{Associate Software Engineer}{Jul 2023 -- May 2025}
+Medha AI, Bangalore, Karnataka
 
 \begin{itemize}
-    \setlength\itemsep{-0.5em}
-    \item \textbf{Programming Languages:} Python $\vert$ Java $\vert$ JavaScript $\vert$ TypeScript
-    \item \textbf{Backend Technologies:} REST APIs $\vert$ Microservices $\vert$ Node.js $\vert$ FastAPI
-    \item \textbf{Databases \& SQL:} PostgreSQL $\vert$ \textbf{SQL} $\vert$ MongoDB $\vert$ Redis $\vert$ PGVector
-    \item \textbf{Cloud \& DevOps:} Microsoft Azure $\vert$ AWS $\vert$ Docker $\vert$ \textbf{Kubernetes (AKS, EKS)} $\vert$ CI/CD $\vert$ GitHub Actions
-    \item \textbf{Frontend Technologies:} Angular $\vert$ Chrome Extensions (MV3) $\vert$ HTML5 $\vert$ CSS3
-    \item \textbf{Tools:} Postman $\vert$ Jira $\vert$ Azure DevOps $\vert$ GitHub Copilot $\vert$ Claude Code
-    \item \textbf{Concepts:} Data Structures \& Algorithms $\vert$ \textbf{System Design} $\vert$  Data Processing \& Performance Optimization $\vert$ Multi-tenant Architecture $\vert$ RBAC $\vert$ Root Cause Analysis \& Live-Site Reliability $\vert$ Agile $\vert$ SDLC
+\item Developed frontend UI components (\textbf{Angular}) and backend microservices (\textbf{Python}, \textbf{Node.js}, \textbf{FastAPI}) based on functional and technical requirements, following established coding standards.
+\item Designed and implemented \textbf{RESTful APIs} and integrated third-party services (WhatsApp Business API, LLM providers, Salesforce) across multiple production systems.
+\item Wrote and maintained unit/integration tests, collaborated with QA to resolve defects, and participated in code reviews and \textbf{Agile} ceremonies (stand-ups, sprint planning, retrospectives) to keep delivery on track.
+\item Used \textbf{GitHub Copilot} and \textbf{Claude Code} daily to accelerate development, code review, and test generation.
+\item Replaced manual, VM-based deployments with automated \textbf{CI/CD} pipelines (\textbf{GitHub Actions}), cutting deployment time \textbf{73\%} (45 to 12 minutes), and deployed containerized workloads on \textbf{Kubernetes} (Azure AKS, AWS EKS).
+\item Diagnosed and resolved a large-dataset processing bottleneck, improving throughput by \textbf{35\%}, and performed root-cause analysis on production incidents to restore service with minimal disruption.
 \end{itemize}
 
-\end{rSection}
+% ---------- KEY PROJECTS ----------
+\section*{Key Projects}
 
-%----------------------------------------------------------------------------------------
-% EXPERIENCE
-%----------------------------------------------------------------------------------------
-
-\begin{rSection}{EXPERIENCE}
-
-\textbf{Software Engineer} \hfill May 2025 -- Present \\
-Medha AI \hfill \textit{Bangalore, Karnataka}
-
-\textbf{Associate Software Engineer} \hfill Jul 2023 -- May 2025 \\
-Medha AI \hfill \textit{Bangalore, Karnataka}
-
-\textit{Key Projects:}
-
-\textbf{YASA -- Scalable Spreadsheet-Based Web Application} \hfill {\small Angular, Node.js, Python, MongoDB, PostgreSQL}
+\projtitle{YASA -- Scalable Spreadsheet-Based Web Application}{Angular, Node.js, Python, MongoDB, PostgreSQL}
 \begin{itemize}
-    \itemsep -0.5em \vspace{-0.5em}
-    \item Designed and built a full-stack, Excel-like data management platform enabling users to create, manage, and securely share structured data, with an Angular frontend and \textbf{Node.js/Python} backend microservices.
-    \item Implemented granular \textbf{RBAC} (per-user view/edit permissions) and RESTful APIs across \textbf{MongoDB} and \textbf{PostgreSQL} for secure, multi-role data access.
-    \item Diagnosed and resolved a large-dataset processing bottleneck, improving throughput by \textbf{35\%}, and contributed to the system's scalable architecture and deployment workflows.
+\item Designed and built a full-stack, Excel-like data management platform enabling users to create, manage, and securely share structured data, with an \textbf{Angular} frontend and \textbf{Node.js}/\textbf{Python} backend microservices.
+\item Implemented granular \textbf{RBAC} (per-user view/edit permissions) and \textbf{RESTful APIs} across \textbf{MongoDB} and \textbf{PostgreSQL} for secure, multi-role data access.
+\item Diagnosed and resolved a large-dataset processing bottleneck, improving throughput by \textbf{35\%}, and contributed to the system's scalable architecture and deployment workflows.
 \end{itemize}
 
-\textbf{AiroStrip -- AI-Powered RAG Platform} \hfill {\small Python, FastAPI, PostgreSQL, PGVector, Angular \textbullet\ Solo Build}
+\projtitle{AiroStrip -- AI-Powered Chrome Extension (Solo Build)}{Python, FastAPI, PostgreSQL, PGVector, Angular, JavaScript (Chrome Extension, Manifest V3)}
 \begin{itemize}
-    \itemsep -0.5em \vspace{-0.5em}
-    \item Independently designed and built an AI-powered RAG platform for Medha's healthcare products, driving a \textbf{30\%} increase in user adoption.
-    \item Developed backend \textbf{APIs} for dashboard access, AI chat, and chat history, backed by \textbf{PostgreSQL} with \textbf{RBAC} and a \textbf{multi-tenant permission system} enforcing per-tenant/per-user data isolation, with real-time cache invalidation for consistency.
-    \item Built a retrieval pipeline using \textbf{PostgreSQL PGVector} with hybrid semantic + keyword (BM25) search for efficient querying across tenants.
+\item Independently designed and built an \textbf{AI-powered Chrome extension} for Medha's healthcare products, bringing AI chat and dashboard access directly into the browser, driving a \textbf{30\%} increase in user adoption.
+\item Developed backend APIs for dashboard access, AI chat, and chat history, backed by \textbf{PostgreSQL} with \textbf{RBAC} and a multi-tenant permission system enforcing per-tenant/per-user data isolation, with real-time cache invalidation for consistency.
+\item Built a retrieval pipeline using \textbf{PostgreSQL PGVector} with hybrid semantic + keyword (\textbf{BM25}) search for efficient querying across tenants.
+\item Built the Chrome extension (\textbf{Manifest V3}) frontend and companion \textbf{Angular} web app, integrating \textbf{Microsoft SSO} authentication for secure access.
 \end{itemize}
 
-\textbf{Azure Deployment \& Infrastructure Setup} \hfill {\small Azure, Docker, Kubernetes, CI/CD, GitHub Actions}
+\projtitle{Cloud Deployment \& Infrastructure Setup}{Azure, AWS, Docker, Kubernetes, CI/CD, GitHub Actions}
 \begin{itemize}
-    \itemsep -0.5em \vspace{-0.5em}
-    \item Replaced manual, VM-based production deployments with fully automated \textbf{CI/CD pipelines} (\textbf{GitHub Actions}), eliminating manual intervention and cutting deployment time by \textbf{73\%} (45 to 12 minutes).
-    \item Deployed and orchestrated containerized workloads (\textbf{Docker}, \textbf{Kubernetes} -- Azure AKS \& AWS EKS) with automated scaling and rollback strategies.
-    \item Triaged production issues and performed \textbf{root-cause analysis} across deployed services, restoring service with minimal customer disruption.
+\item Replaced manual, VM-based production deployments with fully automated \textbf{CI/CD} pipelines (\textbf{GitHub Actions}), eliminating manual intervention and cutting deployment time by \textbf{73\%} (45 to 12 minutes).
+\item Deployed and orchestrated containerized workloads (\textbf{Docker}, \textbf{Kubernetes}) across both \textbf{Microsoft Azure (AKS)} and \textbf{AWS (EKS)}, managing environment configuration, DNS/SSL, and release processes end-to-end.
+\item Triaged production issues and performed root-cause analysis across deployed services, restoring service with minimal customer disruption.
 \end{itemize}
 
-\textbf{Appointment Mitra -- WhatsApp Booking Assistant} \hfill {\small Python, FastAPI, PostgreSQL, WhatsApp API \textbullet\ Solo Build}
+\projtitle{Appointment Mitra -- WhatsApp Booking Assistant (Solo Build)}{Python, FastAPI, PostgreSQL, WhatsApp API, LangGraph, NLP, Agentic AI}
 \begin{itemize}
-    \itemsep -0.5em \vspace{-0.5em}
-    \item Independently designed and built a \textbf{WhatsApp Business API} chatbot automating hospital appointment booking, now handling \textbf{500+ bookings/month} across \textbf{1,500+} monthly active users.
-    \item Implemented a \textbf{multi-turn dialogue state machine} and \textbf{geolocation-based matching}, integrated with backend services for secure data handling.
+\item Independently designed and built a \textbf{WhatsApp Business API} chatbot automating hospital appointment booking, now handling \textbf{500+ bookings/month} across \textbf{1,500+ monthly active users}.
+\item Engineered the conversational engine combining a custom \textbf{NLP}-driven multi-turn dialogue state machine with an \textbf{agentic}, \textbf{loop-engineered} workflow built using \textbf{LangGraph}, with geolocation-based hospital matching.
+\item Integrated with backend and payment services for secure, real-time data handling across live patient booking flows.
 \end{itemize}
 
-\end{rSection}
+\projtitle{Website AI Chatbot Widget (In Progress -- deploying to narayanahealth.org)}{Python, FastAPI, LangChain, PostgreSQL/PGVector, JavaScript, Trino}
+\begin{itemize}
+\item Building an embeddable, plug-and-play \textbf{AI chatbot widget} that integrates into any webpage via a single script tag, currently being deployed on \textbf{narayanahealth.org} for hospital-wide conversational assistance.
+\item Implementing a \textbf{RAG} pipeline with document ingestion (PDF, DOCX, PPTX) into \textbf{PostgreSQL PGVector} for context-aware responses, backed by a \textbf{FastAPI} backend and \textbf{Trino} for federated data queries.
+\item Designing a lightweight, configurable JavaScript widget (bundled with esbuild) with customizable branding and API integration for easy embedding across hospital web properties.
+\end{itemize}
 
-%----------------------------------------------------------------------------------------
-% EDUCATION
-%----------------------------------------------------------------------------------------
+% ---------- EDUCATION ----------
+\section*{Education}
+\role{Bachelor of Engineering, Computer Science}{2019 -- 2023}
+Government College of Engineering, Erode \hfill CGPA: 8.18/10
 
-\begin{rSection}{EDUCATION \& CERTIFICATIONS}
+% ---------- CERTIFICATIONS ----------
+\section*{Certifications}
+\begin{itemize}
+\item \weblink{https://www.hackerrank.com/certificates/77109dd85399}{Software Engineer (Problem Solving, SQL \& REST API) -- HackerRank}
+\item \weblink{https://media.geeksforgeeks.org/courses/certificates/ddc8b59cc39eea59552c001b68ebfd2b.pdf}{System Design: Low-Level to High-Level Solutions -- GeeksforGeeks}
+\item Generative AI Applications Using Amazon Bedrock -- AWS
+\end{itemize}
 
-\textbf{Bachelor of Engineering -- Computer Science} \hfill 2019 -- 2023 \\
-Government College of Engineering, Erode (formerly IRTT) \hfill CGPA: 8.18 / 10
-
-\smallskip
-\textbf{Certifications:} \href{https://www.hackerrank.com/certificates/77109dd85399}{Software Engineer (Problem Solving, SQL \& REST API)} -- HackerRank $\vert$ \href{https://media.geeksforgeeks.org/courses/certificates/ddc8b59cc39eea59552c001b68ebfd2b.pdf}{System Design: Low-Level to High-Level Solutions} -- GeeksforGeeks $\vert$ \textbf{Generative AI Applications Using Amazon Bedrock} -- AWS
-
-\smallskip
-\textbf{Problem Solving:} \textbf{300+} problems solved across LeetCode \& HackerRank
-
-\end{rSection}
+% ---------- ADDITIONAL ----------
+\section*{Additional Information}
+Problem Solving: \textbf{300+} problems solved across LeetCode and HackerRank
 
 \end{document}
