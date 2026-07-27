@@ -1,5 +1,5 @@
 /* ── TYPING ANIMATION ── */
-const roles = ['Full Stack Developer', 'System Design Engineer', 'Cloud & DevOps Engineer', 'Backend Engineer'];
+const roles = ['GenAI & Agentic AI Engineer', 'Full Stack Developer', 'System Design Engineer', 'Cloud & DevOps Engineer', 'Backend Engineer'];
 let roleIdx = 0, charIdx = 0, deleting = false;
 const typedEl = document.getElementById('typed-text');
 
