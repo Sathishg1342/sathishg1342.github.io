@@ -86,7 +86,7 @@ Notice Period: 60 Days
 ## Employment History
 
 ### Software Engineer
-**Medha AI** · May 2025 – Present · Bengaluru
+**Medha Analytics (Narayana Health)** · May 2025 – Present · Bengaluru
 
 ```
 Leading full-stack development of AI-powered enterprise tools for one of India's largest hospital networks
@@ -109,7 +109,7 @@ Angular, Docker, Kubernetes, GitHub Actions, Trino, ElasticSearch
 ```
 
 ### Associate Software Engineer
-**Medha AI** · Jul 2023 – May 2025 · Bengaluru
+**Medha Analytics (Narayana Health)** · Jul 2023 – May 2025 · Bengaluru
 
 ```
 Full-stack engineer building web platforms and conversational automation tools for healthcare delivery at scale.
@@ -131,7 +131,7 @@ Tech Stack: Angular, Node.js, Python, MongoDB, PostgreSQL, Docker, Kubernetes, G
 
 ### AiroStrip — AI-Powered Chrome Extension (Solo Build)
 ```
-Client: Internal (Medha AI) | Role: Solo Developer | Duration: May 2025 – Present
+Client: Internal (Medha Analytics (Narayana Health)) | Role: Solo Developer | Duration: May 2025 – Present
 
 Independently designed and built an AI-powered Chrome extension (Manifest V3) for Medha's healthcare products,
 bringing AI chat and dashboard access directly into the browser — driving a 30% increase in user adoption. Backend
@@ -144,7 +144,7 @@ Technologies: Python, FastAPI, PostgreSQL, PGVector, Angular, JavaScript, Chrome
 
 ### Appointment Mitra — WhatsApp Booking Assistant (Solo Build)
 ```
-Client: Internal (Medha AI) | Role: Solo Developer | Duration: May 2025 – Present
+Client: Internal (Medha Analytics (Narayana Health)) | Role: Solo Developer | Duration: May 2025 – Present
 
 Independently designed and built a WhatsApp Business API chatbot automating hospital appointment booking, now
 handling 500+ bookings/month across 1,500+ monthly active users. Engineered the conversational engine combining
@@ -156,7 +156,7 @@ Technologies: Python, FastAPI, PostgreSQL, WhatsApp API, LangGraph, NLP, Agentic
 
 ### YASA — Scalable Spreadsheet-Based Web Application
 ```
-Client: Internal (Medha AI) | Role: Full Stack Developer | Duration: Jul 2023 – May 2025
+Client: Internal (Medha Analytics (Narayana Health)) | Role: Full Stack Developer | Duration: Jul 2023 – May 2025
 
 Designed and built a full-stack, Excel-like data management platform enabling users to create, manage, and
 securely share structured data. Implemented granular RBAC and RESTful APIs across MongoDB and PostgreSQL.
@@ -167,7 +167,7 @@ Technologies: Angular, Node.js, Python, MongoDB, PostgreSQL
 
 ### Cloud Deployment & Infrastructure Setup
 ```
-Client: Internal (Medha AI) | Role: DevOps / Backend Engineer | Duration: Jul 2023 – Present
+Client: Internal (Medha Analytics (Narayana Health)) | Role: DevOps / Backend Engineer | Duration: Jul 2023 – Present
 
 Replaced manual, VM-based production deployments with fully automated CI/CD pipelines (GitHub Actions), cutting
 deployment time by 73% (45 to 12 minutes). Deployed and orchestrated containerized workloads across both
@@ -178,7 +178,7 @@ Technologies: Azure, AWS, Docker, Kubernetes, CI/CD, GitHub Actions
 
 ### Website AI Chatbot Widget — Live on narayanahealth.org
 ```
-Client: Internal (Medha AI / Narayana Health) | Duration: 2026 – Present
+Client: Internal (Medha Analytics, Narayana Health) | Duration: 2026 – Present
 
 Designed and shipped an embeddable, plug-and-play AI chatbot widget that integrates into any webpage via a single
 script tag, now live on www.narayanahealth.org, serving 1,000+ daily active users and driving 5,000+ appointment

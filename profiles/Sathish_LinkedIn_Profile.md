@@ -73,8 +73,12 @@ Performance Optimization, Root Cause Analysis, Agile/Scrum, GitHub Copilot, Clau
 
 ## Experience
 
-### Software Engineer
-**Medha AI** · May 2025 – Present · Bengaluru
+### Software Engineer, Medha Analytics
+**Narayana Health** · May 2025 – Present · Bengaluru
+
+> LinkedIn's Company field links to one verified Company Page only — you can't combine both names there.
+> Put "Narayana Health" in the Company field (recognizable, verified, large following) and add the division
+> name into the Title field itself, as shown above ("Software Engineer, Medha Analytics").
 
 ```
 Leading full-stack development of AI-powered enterprise tools for one of India's largest hospital networks
@@ -107,8 +111,8 @@ Tech Stack: Python, LangChain, LangGraph, Claude Agent SDK, FastAPI, Azure OpenA
 Angular, Docker, Kubernetes, GitHub Actions, Trino, ElasticSearch
 ```
 
-### Associate Software Engineer
-**Medha AI** · Jul 2023 – May 2025 · Bengaluru
+### Associate Software Engineer, Medha Analytics
+**Narayana Health** · Jul 2023 – May 2025 · Bengaluru
 
 ```
 Full-stack engineer building web platforms and conversational automation tools for healthcare delivery at scale.
@@ -130,7 +134,7 @@ Full-stack engineer building web platforms and conversational automation tools f
 
 ### YASA — Scalable Spreadsheet-Based Web Application
 ```
-Associated with: Medha AI
+Associated with: Narayana Health
 Dates: Jul 2023 – May 2025
 
 Description:
@@ -144,7 +148,7 @@ Skills: Angular, Node.js, Python, MongoDB, PostgreSQL, RBAC, RESTful APIs
 
 ### AiroStrip — AI-Powered Chrome Extension (Solo Build)
 ```
-Associated with: Medha AI
+Associated with: Narayana Health
 Dates: May 2025 – Present
 
 Description:
@@ -160,7 +164,7 @@ Skills: Python, FastAPI, PostgreSQL, PGVector, Angular, JavaScript, Chrome Exten
 
 ### Cloud Deployment & Infrastructure Setup
 ```
-Associated with: Medha AI
+Associated with: Narayana Health
 Dates: Jul 2023 – Present
 
 Description:
@@ -175,7 +179,7 @@ Skills: Azure, AWS, Docker, Kubernetes, CI/CD, GitHub Actions
 
 ### Appointment Mitra — WhatsApp Booking Assistant (Solo Build)
 ```
-Associated with: Medha AI
+Associated with: Narayana Health
 Dates: May 2025 – Present
 
 Description:
@@ -190,7 +194,7 @@ Skills: Python, FastAPI, PostgreSQL, WhatsApp API, LangGraph, NLP, Agentic AI, L
 
 ### Website AI Chatbot Widget — Live on narayanahealth.org
 ```
-Associated with: Medha AI
+Associated with: Narayana Health
 Dates: 2026 – Present
 
 Description:

@@ -47,7 +47,7 @@ GPA: 8.18/10
 ## Work History
 
 ### Software Engineer
-**Medha AI** | May 2025 – Present | Bengaluru, India
+**Medha Analytics (Narayana Health)** | May 2025 – Present | Bengaluru, India
 
 ```
 Leading full-stack and GenAI development for one of India's largest hospital networks (Narayana Health · Medha
@@ -60,7 +60,7 @@ improving throughput 35%.
 ```
 
 ### Associate Software Engineer
-**Medha AI** | Jul 2023 – May 2025 | Bengaluru, India
+**Medha Analytics (Narayana Health)** | Jul 2023 – May 2025 | Bengaluru, India
 
 ```
 Full-stack engineer building web platforms and conversational automation tools for healthcare delivery at scale.
